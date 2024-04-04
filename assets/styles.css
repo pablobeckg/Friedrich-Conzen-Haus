@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white
+}
+
+@font-face {
+    font-family: ;
+    src: url();
+}
+
+/* header */
+main {
+    background-color: black;
+}
+header {
+    height: 10vh;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+nav h1, nav p {
+    font-size: 2rem;
+    margin: 8vw;
+}
+
+/* carrusel */
+
+.carrusel {
+    height: 90vh;
+    width: 100vw;
+    padding: 0 8vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrusel img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 70% center;
+    border-radius: 20px;
+}
+
+.carrusel h2 {
+    padding: 0vh 0;
+    font-size: 2.5rem;
+    margin: 8vw 0;
+}
+
+/* section */
+
+section {
+    height: auto;
+}
+
+/* location */
+
+.location {
+    background-color: rgb(186, 186, 186);
+}
+
+.sub-title {
+    padding: 8vw 8vw 0 8vw;
+    font-size: 4rem;
+    font-style: italic;
+}
+
+.text {
+    padding: 8vw;
+    font-size: 2.5rem;
+    line-height: 4rem;
+}
+
+.btn-info {
+    width: 18rem;
+    height: 6rem;
+    border-radius: 10px;
+    font-size: 3rem;
+    background-color: orange;
+    border: none;
+    margin: 8vw 8vw;
+    color: white;
+    letter-spacing: 0.8rem;
+}
+
+.preview {
+    padding: 0 8vw 0 0;
+    width: 100%;
+    object-fit: cover;
+    object-position: 70% center;
+}
+
+.right{
+    padding: 0 0 0 8vw;
+}
+
+/* raume */
+.raume {
+    background-color: white; 
+    color: black;
+}
+
+.Leistungen {
+    color: white;
+    background-color: rgb(186, 186, 186);
+}
+
+footer {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 8vw 8vw 0 8vw;
+}
+
+footer h4 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+footer h5 {
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+
+footer h6 {
+    font-size: 2rem;
+    margin-top: auto;
+    margin-bottom: 8vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+h6 a {
+    color: white;
+    text-decoration: none;
+}
+
