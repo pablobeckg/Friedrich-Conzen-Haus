@@ -1,3 +1,5 @@
+/* general */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,42 +8,73 @@
 
 html {
     font-size: 62.5%;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white
+    font-family: "redditmono";
+    color: #f9f9f9;
 }
 
 @font-face {
-    font-family: ;
-    src: url();
+    font-family: "redditmono";
+    src: url(./fonts/RedditMono-VariableFont_wght.ttf);
 }
 
 /* header */
-main {
-    background-color: black;
-}
+
 header {
-    height: 10vh;
+    height: 15vh;
+    border-bottom: 3px solid #f9f9f9;
 }
 nav {
     height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
-    color: white;
+    background-color: #141414;
 }
 
-nav h1, nav p {
-    font-size: 2rem;
-    margin: 8vh 8vw 8vh 8vw;
+nav h1 {
+    font-size: 2.5rem;
+    margin: auto 8vw;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8vw;
+}
+
+.menu p {
+    font-size: 2.2rem;
+    margin-right: 3vw;
+}
+
+.burger {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.line {
+    background-color: #f9f9f9;
+    width: 40px;
+    margin: 4px;
+    height: 5px;
 }
 
 /* carrusel */
 
+main {
+    background-color: #141414;
+    height: auto;
+}
+
 .carrusel {
-    height: 90vh;
+    height: 85vh;
     width: 100vw;
-    padding: 0 8vw;
+    padding: 4vh 8vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,12 +86,15 @@ nav h1, nav p {
     width: 100%;
     object-fit: cover;
     object-position: 70% center;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
+
+
 .carrusel h2 {
-    font-size: 2.5rem;
-    margin: 5vh 0;
+    padding-top: 1vh;
+    font-size: 4rem;
+    margin-bottom: -2rem;
 }
 
 /* section */
@@ -70,52 +106,53 @@ section {
 /* location */
 
 .location {
-    background-color: rgb(186, 186, 186);
+    background-color: rgb(99, 99, 99);
 }
 
 .sub-title {
-    padding: 5vh 8vw 0 8vw;
-    font-size: 4rem;
+    padding: 4vh 8vw 2vh 8vw;
+    font-size: 2.8rem;
     font-style: italic;
 }
 
 .text {
-    padding: 8vw;
-    font-size: 2.5rem;
-    line-height: 4rem;
+    padding: 0 8vw;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+}
+
+.pictures {
+    padding: 4vh 0;
+    height: 65vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+.btn-con {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
 }
 
 .btn-info {
-    width: 18rem;
-    height: 6rem;
+    width: 15rem;
+    height: 4rem;
     border-radius: 10px;
     font-size: 3rem;
     background-color: orange;
     border: none;
-    margin: 5vh 8vw;
-    color: white;
+    margin: 0 8vw 4vh 8vw;
+    color: #f9f9f9;
     letter-spacing: 0.8rem;
-}
-
-.preview {
-    padding: 0 8vw 0 0;
-    width: 100%;
-    object-fit: cover;
-    object-position: 70% center;
-}
-
-.right{
-    padding: 0 0 0 8vw;
 }
 
 /* raume */
 .raume {
-    background-color: white; 
+    background-color: #f9f9f9; 
     color: black;
 }
 
 .Leistungen {
-    color: white;
     background-color: rgb(186, 186, 186);
 }
 
@@ -128,17 +165,17 @@ footer {
 }
 
 footer h4 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 3rem;
 }
 
 footer h5 {
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 2rem 0;
 }
 
 footer h6 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-top: auto;
     margin-bottom: 8vw;
     display: flex;
@@ -146,7 +183,7 @@ footer h6 {
 }
 
 h6 a {
-    color: white;
+    color: #f9f9f9;
     text-decoration: none;
 }
 
